@@ -6,7 +6,7 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const secretKey = '123456';
 
-// Configurações da conexão com o banco de dados
+
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
@@ -14,7 +14,7 @@ const db = mysql.createConnection({
     database: 'programadorweb-10-03-2023'
   });
 
-  // Cria o servidor Express
+
 const app = express();
 
 // Adiciona o middleware Cors para permitir o acesso externo à API
