@@ -17,6 +17,6 @@ Clone o repositório para o seu ambiente local.
 Certifique-se de ter o Node.js e o MySQL instalados em sua máquina.
 Execute o comando "npm install" para instalar as dependências do projeto.
 Configure as informações de conexão com o banco de dados no arquivo de configuração correspondente.
-Execute o comando "npm start" para iniciar a API.
+Execute o comando "node index.js" para iniciar a API.
 Acesse os endpoints definidos para interagir com a API e utilizar os recursos disponíveis.
 Esse projeto oferece uma API robusta e segura para o controle escolar, permitindo a manipulação e consulta de dados relacionados a alunos, cursos, matrículas e usuários. Sinta-se à vontade para explorar, contribuir e personalizar de acordo com suas necessidades. Entre em contato com o desenvolvedor para obter mais informações ou esclarecer dúvidas adicionais.
