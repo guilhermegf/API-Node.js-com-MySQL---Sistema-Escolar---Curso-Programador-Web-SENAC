@@ -1,4 +1,4 @@
-ste repositório contém um projeto de controle escolar desenvolvido durante o curso Programador Web do Senac Catalão Goiás, e contém a API desenvolvida em Node.js para o front em https://github.com/guilhermegf/Front-Vue.Js-Curso-Programador-Web-Senac. A API utiliza o banco de dados MySQL e é construída com o framework Express. Além disso, conta com a implementação do JWT (JSON Web Token) para autenticação de usuários.
+Este repositório contém um projeto de controle escolar desenvolvido durante o curso Programador Web do Senac Catalão Goiás, e contém a API desenvolvida em Node.js para o front em https://github.com/guilhermegf/Front-Vue.Js-Curso-Programador-Web-Senac. A API utiliza o banco de dados MySQL e é construída com o framework Express. Além disso, conta com a implementação do JWT (JSON Web Token) para autenticação de usuários.
 
 Recursos principais:
 
