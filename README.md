@@ -20,3 +20,6 @@ Configure as informações de conexão com o banco de dados no arquivo index.js.
 Execute o comando "node index.js" para iniciar a API.
 Acesse os endpoints definidos para interagir com a API e utilizar os recursos disponíveis.
 Esse projeto oferece uma API robusta e segura para o controle escolar, permitindo a manipulação e consulta de dados relacionados a alunos, cursos, matrículas e usuários. Sinta-se à vontade para explorar, contribuir e personalizar de acordo com suas necessidades. Entre em contato com o desenvolvedor para obter mais informações ou esclarecer dúvidas adicionais.
+
+Licença
+Este projeto está licenciado sob a licença Creative Commons Attribution 4.0 International.
