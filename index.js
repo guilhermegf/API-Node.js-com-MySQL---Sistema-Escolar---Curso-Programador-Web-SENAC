@@ -8,10 +8,10 @@ const secretKey = '123456';
 
 
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'programadorweb-10-03-2023'
+    host: 'mysqlsenac.mysql.database.azure.com',
+    user: 'usuariosenac',
+    password: 'Senac123',
+    database: 'programadorweb'
   });
 
 
