@@ -5,6 +5,7 @@ const mysql = require('mysql');
 const cors = require('cors');
 const jwt = require('jsonwebtoken');
 const secretKey = '123456';
+const port = 3000; 
 
 
 const db = mysql.createConnection({
@@ -398,6 +399,6 @@ app.get('/matriculasPorAluno/:codigoaluno', (req, res) => {
 });
 
 // Inicia o servidor na porta 3000
-app.listen(8080, () => {
-    console.log('Servidor iniciado na porta 8080');
+app.listen(port, () => {
+    console.log('Servidor iniciado na porta');
   });
