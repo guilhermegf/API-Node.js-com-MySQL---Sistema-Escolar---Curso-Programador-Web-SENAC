@@ -2,8 +2,8 @@
   "name": "apiweb",
   "version": "1.0.0",
   "description": "Api desenvolvida em Node.js com várias EndPoints e integração com MySQL",
-  "main": "index.js",  
-  "keywords": [],
+  "main": "index.js",
+   "keywords": [],
   "author": "Guilherme Gonçalves de Freitas",
   "license": "ISC",
   "dependencies": {
