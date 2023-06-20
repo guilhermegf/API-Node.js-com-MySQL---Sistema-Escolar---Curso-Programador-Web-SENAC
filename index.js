@@ -36,7 +36,7 @@ function generateToken(codigousuario) {
   const data_expiracao = new Date();
   data_expiracao.setHours(data_expiracao.getHours() + 1); // Define a expiração do token para 1 hora a partir de agora
   //data_criacao.setHours(data_criacao.getHours() - 1);
-  const sql = "INSERT INTO tokens (token, codigousuario, data_criacao, data_expiracao) VALUES ('"+token+"', "+codigousuario+", '"+data_criacao.toISOString()+"', '"+data_expiracao.toISOString()+"')";
+  const sql = "INSERT INTO tokens (token, codigousuario) VALUES ('"+token+"', "+codigousuario+")";
   db.query(sql, (err, result) => {
     if (err) throw err;
     console.log('Token armazenado no banco de dados');
@@ -57,9 +57,9 @@ function authenticate(req, res, next) {
   db.query('SELECT * FROM tokens WHERE token = ?', token, (err, result) => {
     if (err) throw err;
 
-    if (!result.length || new Date() > new Date(result[0].data_expiracao)) {
-      return res.status(401).send({ message: 'Token inválido ou expirado.' });
-    }
+    //if (!result.length || new Date() > new Date(result[0].data_expiracao)) {
+    //  return res.status(401).send({ message: 'Token inválido ou expirado.' });
+    //}
 
     // Se o token for válido, armazena o código do usuário na requisição para uso posterior
     req.codigousuario = result[0].codigousuario;
